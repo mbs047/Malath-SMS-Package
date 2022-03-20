@@ -1,0 +1,21 @@
+<?php
+
+namespace Devhereco\MalathSMS\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class SmsHistory extends Model
+{
+    use HasFactory;
+    const UPDATED_AT = null;
+    protected $table = "sms_history";
+
+    protected $fillable = [
+        'provider',
+        'phone',
+        'sender',
+        'message',
+        'status'
+    ];
+}

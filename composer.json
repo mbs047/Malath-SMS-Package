@@ -1,0 +1,19 @@
+{
+    "name": "devhereco/malathsms",
+    "description": "Malath SMS API Package developed by Development Here (Mohamed S Baobaid)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devhereco\\Malathsms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MohammedSB",
+            "email": "mohammed.b.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
