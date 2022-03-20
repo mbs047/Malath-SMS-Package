@@ -25,7 +25,13 @@ Latest Laravel versions have auto dicovery and automatically add service provide
 Devhereco\MalathSMS\ServiceProvider::class,
 ```
 
-### 3. env variables
+### 3. Migrations
+
+```sh
+php artisan migrate
+```
+
+### 4. env variables
 
 ```sh
 MALATH_SMS_USERNAME=
