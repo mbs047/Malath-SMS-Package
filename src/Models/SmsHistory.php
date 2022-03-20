@@ -9,7 +9,6 @@ class SmsHistory extends Model
 {
     use HasFactory;
     const UPDATED_AT = null;
-    protected $table = "sms_history";
 
     protected $fillable = [
         'provider',
