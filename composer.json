@@ -1,6 +1,6 @@
 {
     "name": "devhereco/malathsms",
-    "description": "Malath SMS API Package developed by Development Here (Mohamed S Baobaid)",
+    "description": "Malath SMS API Package developed by Development Here (Mohammed S Baobaid)",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -14,13 +14,6 @@
             "email": "mohammed.b.dev@gmail.com"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Devhereco\\Malathsms\\MalathSmsServiceProvider"
-            ]
-        }
-    },
     "minimum-stability": "dev",
     "require": {}
 }
