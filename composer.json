@@ -14,6 +14,16 @@
             "email": "mohammed.b.dev@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
