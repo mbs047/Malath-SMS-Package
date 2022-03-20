@@ -1,19 +1,27 @@
 {
     "name": "devhereco/malathsms",
-    "description": "Malath SMS API Package developed by Development Here (Mohammed S Baobaid)",
+    "description": "A Laravel package for Malath SMS API.",
+    "keywords": ["laravel", "firebase", "firebase", "sdk", "api", "database", "fcm", "gcm"],
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Devhereco\\MalathSMS\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "MohammedSB",
             "email": "mohammed.b.dev@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Devhereco\\MalathSMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devhereco\\MalathSMS\\ServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }

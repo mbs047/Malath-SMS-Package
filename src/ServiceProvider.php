@@ -2,9 +2,8 @@
 
 namespace Devhereco\MalathSMS;
 
-use Illuminate\Support\ServiceProvider;
 
-class MalathSmsServiceProvider extends ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
 
   public function boot()
