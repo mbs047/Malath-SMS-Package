@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Devhereco\\Malathsms\\": "src/"
+            "Devhereco\\MalathSMS\\": "src/"
         }
     },
     "authors": [
